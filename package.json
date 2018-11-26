@@ -1,0 +1,26 @@
+{
+  "name": "nx-reports",
+  "version": "1.0.0",
+  "description": "Automatic follow up report generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evargas/nx-reports.git"
+  },
+  "author": "e@nx.cr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evargas/nx-reports/issues"
+  },
+  "homepage": "https://github.com/evargas/nx-reports#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jira-connector": "^2.9.0",
+    "jira-rest-client": "^1.0.4",
+    "node-cron": "^2.0.3"
+  }
+}
